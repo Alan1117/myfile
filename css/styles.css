@@ -11,31 +11,40 @@ h1{
   margin: 50px auto 10px;
   font-family: 'Montez', cursive;
   font-size:5.625rem;
+  color: white;
   /*font-family: 'Sail', cursive;*/
 }
 h2{
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
   margin:0 auto;
+  color: grey;
+    font-weight: normal;
 }
 h3{
   font-family: 'Montserrat', sans-serif;
+  color: #053742;
+  font-weight: bold;
 }
 p{
   font-family: 'Montserrat', sans-serif;
+  color: #132C33;
 }
 a{
   font-family: 'Montserrat', sans-serif;
+  color: #132C33;
 }
 .topContainer{
-  background-color: #D8E3E7;
+  background-color: #0F4C75;
   position: relative;
   padding-top: 100px;
 }
-.middleContainer{
+.middle-container{
+  background-color: #E8F0F2;
 
 }
-.bottomContainer{
+.bottom-container{
+  background-color: #E8F0F2;
 }
 .bottom-cloud{
   position: absolute;
@@ -50,4 +59,43 @@ a{
 }
 .freepik{
   font-family: 'Montserrat', sans-serif;
+}
+.email-click{
+  font-size: 30px;
+  font-weight: bold;
+}
+.skill-row{
+  width:50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.computer{
+  width:25%;
+  float: left;
+  margin-right: 30px;
+}
+.logic{
+  width:25%;
+  float: right;
+  margin-left: 30px;
+}
+.fit-img{
+  width:25%;
+  float:left;
+  margin-right: 30px;
+}
+.chess-img{
+  width:25%;
+  float:right;
+  margin-left:30px;
+}
+.game{
+  width:25%;
+  float:left;
+  margin-right: 30px;
+
+}
+.end{
+  width:200%;
 }
